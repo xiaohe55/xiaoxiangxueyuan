@@ -55,6 +55,31 @@ input
 # print("中国\\北京")
 
 #format函数
-card_id = '4856'
-card_passWord=48651
-print("您的卡号为：{}, 您的卡号为：{}".format(card_id, card_passWord))
+# card_id = '4856'
+# card_passWord=48651
+# print("您的卡号为：{}, 您的卡号为：{}".format(card_id, card_passWord))
+
+#format函数精度
+# height = 180.5555
+# print("您的身高为： {:.2f}".format(height))
+
+
+#类型转换
+# name = input("请输入姓名:")
+# age = input("请输入年龄:")
+# print("name:%s, age:%d"%(name,int(age)))
+
+
+#类型转换
+# int("123")#字符串转整型
+# float("3.14")#字符串转浮点型
+# str(123)
+
+
+#eval(str)把字符串自动转换为合适类型
+# a1=eval("123")
+# a2=eval("3.14")
+# print(type(a1))
+# print(type(a2))
+
+
