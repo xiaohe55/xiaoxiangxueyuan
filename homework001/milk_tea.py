@@ -22,6 +22,6 @@ if 1 <= kind <= 5:
         sum = arr[kind] * num * 0.9
     else:
         sum = arr[kind] * num
-    print("请支付{}元".format(sum))
+    print("您购买{}号奶茶，共{}杯，请支付{}元".format(kind, num, sum))
 else:
     print("sorry，我们只卖特定奶茶")
