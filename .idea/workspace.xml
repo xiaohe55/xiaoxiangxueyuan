@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba3f87c-2a27-4957-9327-5133f3a85681" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/day0403/unstaff_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0405/unstaffed_store_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0403/demo_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/day0403/demo_list.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,27 +18,27 @@
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_tuple.coverage" NAME="demo1_tuple Coverage Results" MODIFIED="1523103491163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_input_print.coverage" NAME="demo2_input_print Coverage Results" MODIFIED="1522330393644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0329" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo_function.coverage" NAME="demo_function Coverage Results" MODIFIED="1523108901549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaff_store.coverage" NAME="unstaff_store Coverage Results" MODIFIED="1523193808574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaff_store.coverage" NAME="unstaff_store Coverage Results" MODIFIED="1523194039209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo5_string_function.coverage" NAME="demo5_string_function Coverage Results" MODIFIED="1523110377252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_set.coverage" NAME="demo3_set Coverage Results" MODIFIED="1523107715739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo_list.coverage" NAME="demo_list Coverage Results" MODIFIED="1523193478221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day0403/demo_list.py">
+      <file leaf-file-name="unstaff_store.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day0403/unstaff_store.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="65" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unstaff_store.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day0403/unstaff_store.py">
+      <file leaf-file-name="unstaffed_store_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day0405/unstaffed_store_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="198">
+              <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -56,10 +55,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pm</find>
+      <find>num</find>
     </findStrings>
     <replaceStrings>
       <replace>zc</replace>
       <replace>xc</replace>
+      <replace>counts</replace>
+      <replace>item_id</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -80,6 +82,7 @@
         <option value="$PROJECT_DIR$/day0405/demo5_string_function.py" />
         <option value="$PROJECT_DIR$/day0403/demo_list.py" />
         <option value="$PROJECT_DIR$/day0403/unstaff_store.py" />
+        <option value="$PROJECT_DIR$/day0405/unstaffed_store_v2.py" />
       </list>
     </option>
   </component>
@@ -115,6 +118,11 @@
               <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
               <item name="day0403" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="day0405" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,14 +316,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38562092" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37254903" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37254903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -557,8 +565,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day0403/unstaff_store.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="255">
+          <caret line="65" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0405/unstaffed_store_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
         </state>
       </provider>
     </entry>
