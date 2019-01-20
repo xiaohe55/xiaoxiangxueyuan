@@ -69,9 +69,11 @@ def user_manger_sys(user_id):
 
 
 # 用户购买日志管理系统
-# 格式：[{"user_id":"user_id1","maney":20,"items":(items1,item2......)}]
+# 格式：[{"user_id":"user_id1","money":20,"items":(items1,item2......)}]
 def buy_log_manager_sys(user_id, money, *items):
-    buy_log = {"user_id": user_id, "maney": money, "items": items}
+    buy_log = {"user_id": user_id, "money": money, "items": items}
+    g_bug_logs.append(buy_log)
+    print(buy_log)
 
 
 # 推荐系统
@@ -91,20 +93,19 @@ def recommend_sys(user_id):
                 else:
                     items_set.update(items_value)
                     other_user_item_dict[user_id_key] = items_set
-        recommend_list = [] #被推荐列表
+        recommend_list = []  # 被推荐列表
         for value_set in other_user_item_dict.values():
             inner_set = user_item_set & value_set
             length = len(inner_set)
-            if length > 0 and length < len(value_set):
+            if 0 < length < len(value_set):
                 diff_set = value_set - user_item_set
-                recommend_list.append({"common_num":length,"items":diff_set})
+                recommend_list.append({"common_num": length, "items": diff_set})
         if len(recommend_list) > 0:
-            recommend_list.sort(key=lambda x:x["common_num"],reverse=True)
+            recommend_list.sort(key=lambda x: x["common_num"], reverse=True)
             recommend_set = recommend_list[0]["item"]
-        return list(recommend_set) #集合转化为列表
+            return list(recommend_set)  # 集合转化为列表
 
-
-
+# -----------------V3 end------------------
 # 购物大厅
 def shopping_hall():
     # 三个空货架
@@ -167,10 +168,11 @@ def shopping_hall():
                 print("您的购物车商品如下：", buy_car)
                 print("您本次消费金额{}元：".format(total_money))
                 # 购物日志管理
-                buy_log_manager_sys(user_id,total_money,*buy_car)
+                buy_log_manager_sys(user_id, total_money, *buy_car)
                 recommend_items_list = recommend_sys(user_id)
                 if recommend_items_list != None:
                     print("买了该商品的用户还买了{}".format(recommend_items_list))
+                # -----------------V3 end------------------
                 buy_car = []
 
                 print("欢迎下次光临")

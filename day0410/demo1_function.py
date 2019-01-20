@@ -78,7 +78,6 @@ def x_y_xum(y=20,x):
     return x+y
 '''
 
-
 # 命名参数
 # def x_y_sum (x= 10,y = 20):
 #     return x+y
@@ -95,6 +94,7 @@ def x_y_xum(y=20,x):
 
 # 不定长参数
 # 第一种def_function([format1_args,]*args)
+'''
 def any_num_sum(x, y=10, *args):
     print("args={}".format(args))
     rs = x + y
@@ -103,60 +103,121 @@ def any_num_sum(x, y=10, *args):
             rs += arg
     return rs
 
-rs1=any_num_sum(20)
-rs2=any_num_sum(20,30)
-rs3=any_num_sum(20,30,40,50)
+
+# 改变不定长参数的位置
+def any_num_sum2(x, *args, y=10):
+    print("args={}".format(args))
+    print("x={}".format(x))
+    print("y={}".format(y))
+    rs = x + y
+    if len(args) > 0:
+        for arg in args:
+            rs += arg
+    return rs
+
+
+rs1 = any_num_sum2(20)
+rs2 = any_num_sum2(20, 30, y=100)
+rs3 = any_num_sum2(20, 30, 40, 50, 60, 70, 80, y=100)
 
 print(rs1)
 print(rs2)
 print(rs3)
-
-'''
-递归
 '''
 
+# 第一种def_function([format1_args,]**args)
+# 养老, 医疗，公积金
+
+'''
+def social_insurance_comp(basic_money, **proportion):
+    print(proportion)
+    e_money = basic_money * proportion["e"]
+    m_money = basic_money * proportion["m"]
+    a_money = basic_money * proportion["a"]
+    total_money = e_money + m_money + a_money
+    return e_money, m_money, a_money, total_money
+
+
+e, m, a, t = social_insurance_comp(10000, e=0.2, m=0.1, a=0.12)
+print("养老：{},医疗：{},公积金：{},缴费总额：{},".format(e, m, a, t))
+'''
+
+# 拆包
+# 工资计算器
+'''
+def salary_comp(basic_money, *other_money, **proportion):
+    print("缴费基数：{}".format(basic_money))
+    print("其他工资：{}".format(other_money))
+    print("比例：{}".format(proportion))
+
+
+other_money = (500, 200, 100, 1000)
+proportion_dict = {'e': 0.2, 'm': 0.1, 'a': 0.12}
+# salary_comp(8000, other_money, proportion_dict) #未使用拆包
+salary_comp(8000, *other_money, **proportion_dict)
+'''
+
+# 递归函数：自身调用自身
+'''
+1! = 1
+2! = 2*1
+3! = 3* 2*1
+……
+n! = n*(n-1)!
+'''
 # for循环实现
+'''
+def recursive_for(num):
+    rs = num
+    for i in range(1, num):
+        rs *= i
+    return rs
 
+
+rs = recursive_for(4)
+print(rs)
+'''
 
 # 递归实现
-# def recuisive(num):
-#     if num > 1:
-#         return num * recuisive(num - 1)
-#     else:
-#         return num
-#
-# print(recuisive(4))
-
-
 '''
-匿名函数
+def recursive(num):
+    if num > 1:
+        return num * recursive(num - 1)
+    else:
+        return num
+
+
+print(recursive(4))
 '''
 
-# sum = lambda x, y: x + y
-# #等同于
-# # def sum(x, y):
-# #     return x + y
-#
-# print(sum(10, 20))
+# 匿名函数
+'''
+sum = lambda x, y: x + y
+# 等价函数
+# def sum(x, y):
+#     return x + y
 
+print(sum(10, 20))
+'''
 
 # 1.匿名函数作为参数传入自定义函数
 '''
-def x_y_comp(x,y,func):
-    rs = func(x,y)
+def x_y_comp(x, y, func):
+    rs = func(x, y)
     print(rs)
 
-x_y_comp(3,5,lambda x,y:x+y)
+
+x_y_comp(3, 5, lambda x, y: x + y)
 print("--------------------")
-x_y_comp(4,6,lambda x,y:x*y)
+x_y_comp(4, 6, lambda x, y: x * y)
 '''
 
 # 2.匿名函数作为Python内置函数的参数使用
-# uses_infos = [{"name": "zhangsan", "age": 20}, {"name": "lisi", "age": 17}, {"name": "wangwu", "age": 40}]
-# print(uses_infos)
-# # 年龄升序
-# uses_infos.sort(key=lambda info: info["age"])
-# print(uses_infos)
-# # 年龄降序
-# uses_infos.sort(key=lambda info: info["age"], reverse=True)
-# print(uses_infos)
+uses_infos = [{"name": "zhangsan", "age": 20}, {"name": "lisi", "age": 30}, {"name": "wangwu", "age": 18}]
+print(uses_infos)
+# 年龄升序
+uses_infos.sort(key=lambda info: info["age"])
+print(uses_infos)
+# 年龄降序
+uses_infos.sort(key=lambda info: info["age"], reverse=True)
+print(uses_infos)
