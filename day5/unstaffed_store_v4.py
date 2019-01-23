@@ -91,10 +91,10 @@ def check_add_rack(rack, item_type, item_counts):
 # -----------------V3 start------------------
 # 购物车结算系统
 def buy_car_account(buy_car, if_vip):
-    iteam_detail = {"老坛酸菜": 5, "红烧牛肉": 4, "酸辣粉": 6, "拉面": 7, "老干妈": 10, "乌江": 2, "王中王": 2, "蒜肠": 12, "淀粉肠": 8}
+    item_detail = {"老坛酸菜": 5, "红烧牛肉": 4, "酸辣粉": 6, "拉面": 7, "老干妈": 10, "乌江": 2, "王中王": 2, "蒜肠": 12, "淀粉肠": 8}
     total_money = 0
     for item in buy_car:
-        total_money += iteam_detail.get(item, 0)
+        total_money += item_detail.get(item, 0)
     if if_vip:
         vip_money = total_money * 0.9
         # 格式化
