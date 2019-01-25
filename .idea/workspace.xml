@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba3f87c-2a27-4957-9327-5133f3a85681" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/day6/demo3_mul_extend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/demo4_mul_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/unstaffed_store_v5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/business/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/business/model1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/business/model2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/business/model3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/demo1_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/demo2_singleton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/demo3_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/rack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/recommend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/infrastructure/warehouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tool/model1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tool/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/unstaffed_store_v6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/unstaffed_store_v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/unstaffed_store_v4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/demo2_extend.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/demo2_extend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xiaoxiangxueyuan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xiaoxiangxueyuan.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,24 +32,29 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_tuple.coverage" NAME="demo1_tuple Coverage Results" MODIFIED="1523103491163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo4_oop.coverage" NAME="demo4_oop Coverage Results" MODIFIED="1548115078960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_oop.coverage" NAME="demo1_oop Coverage Results" MODIFIED="1548168097613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_class.coverage" NAME="demo1_class Coverage Results" MODIFIED="1548374029249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_singleton.coverage" NAME="demo2_singleton Coverage Results" MODIFIED="1548375284705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_json_csv.coverage" NAME="demo3_json_csv Coverage Results" MODIFIED="1548087088276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaff_store.coverage" NAME="unstaff_store Coverage Results" MODIFIED="1523367268540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1__variable.coverage" NAME="demo1_ variable Coverage Results" MODIFIED="1522327281779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0329" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$model2.coverage" NAME="model2 Coverage Results" MODIFIED="1548424633303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7/business" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo_function.coverage" NAME="demo_function Coverage Results" MODIFIED="1523108901549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaffed_store_v4.coverage" NAME="unstaffed_store_v4 Coverage Results" MODIFIED="1548116651264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_mul_extend.coverage" NAME="demo3_mul_extend Coverage Results" MODIFIED="1548256749908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_input_print.coverage" NAME="demo2_input_print Coverage Results" MODIFIED="1522330393644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0329" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo4_oop.coverage" NAME="demo4_oop Coverage Results" MODIFIED="1548115078960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaffed_store_v5.coverage" NAME="unstaffed_store_v5 Coverage Results" MODIFIED="1548262616777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_oop.coverage" NAME="demo1_oop Coverage Results" MODIFIED="1548168097613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$test.coverage" NAME="test Coverage Results" MODIFIED="1548424872935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7/tool" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_function.coverage" NAME="demo1_function Coverage Results" MODIFIED="1547998477539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0410" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo4_mul_status.coverage" NAME="demo4_mul_status Coverage Results" MODIFIED="1548257204681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_set.coverage" NAME="demo3_set Coverage Results" MODIFIED="1523107715739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_except.coverage" NAME="demo3_except Coverage Results" MODIFIED="1548422076893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo_list.coverage" NAME="demo_list Coverage Results" MODIFIED="1523193478221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo5_string_function.coverage" NAME="demo5_string_function Coverage Results" MODIFIED="1523110377252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo3_json_csv.coverage" NAME="demo3_json_csv Coverage Results" MODIFIED="1548087088276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaff_store.coverage" NAME="unstaff_store Coverage Results" MODIFIED="1523367268540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0403" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaffed_store_v3.coverage" NAME="unstaffed_store_v3 Coverage Results" MODIFIED="1548001010039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0410" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1__variable.coverage" NAME="demo1_ variable Coverage Results" MODIFIED="1522327281779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0329" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_time.coverage" NAME="demo1_time Coverage Results" MODIFIED="1548030766286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_dict.coverage" NAME="demo2_dict Coverage Results" MODIFIED="1523105205135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo_function.coverage" NAME="demo_function Coverage Results" MODIFIED="1523108901549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
-    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaffed_store_v4.coverage" NAME="unstaffed_store_v4 Coverage Results" MODIFIED="1548116651264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_extend.coverage" NAME="demo2_extend Coverage Results" MODIFIED="1548256266965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_file.coverage" NAME="demo2_file Coverage Results" MODIFIED="1548085228322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
   </component>
@@ -44,28 +64,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day5/unstaffed_store_v4.py">
+        <entry file="file://$PROJECT_DIR$/day7/business/model3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="246" lean-forward="true" selection-start-line="170" selection-end-line="246" />
-              <folding>
-                <element signature="e#80#95#0" expanded="true" />
-                <element signature="e#2355#3627#0" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/business/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/tool/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day6/unstaffed_store_v5.py">
+        <entry file="file://$PROJECT_DIR$/day7/unstaffed_store_v6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="282" column="25" lean-forward="true" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="e#119#134#0" expanded="true" />
-                <element signature="e#156#1016#0" />
-                <element signature="e#3642#4030#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#133#609#0" />
+                <element signature="e#636#2174#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/warehouse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#144#1003#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/rack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="e#97#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/infrastructure/recommend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,6 +228,21 @@
         <option value="$PROJECT_DIR$/day6/demo4_mul_status.py" />
         <option value="$PROJECT_DIR$/day5/unstaffed_store_v4.py" />
         <option value="$PROJECT_DIR$/day6/unstaffed_store_v5.py" />
+        <option value="$PROJECT_DIR$/day7/demo1_class.py" />
+        <option value="$PROJECT_DIR$/day7/demo2_singleton.py" />
+        <option value="$PROJECT_DIR$/day7/demo3_except.py" />
+        <option value="$PROJECT_DIR$/day7/business/model1.py" />
+        <option value="$PROJECT_DIR$/day7/tool/model1.py" />
+        <option value="$PROJECT_DIR$/day7/business/model2.py" />
+        <option value="$PROJECT_DIR$/day7/business/model3.py" />
+        <option value="$PROJECT_DIR$/day7/business/__init__.py" />
+        <option value="$PROJECT_DIR$/day7/tool/test.py" />
+        <option value="$PROJECT_DIR$/day7/infrastructure/warehouse.py" />
+        <option value="$PROJECT_DIR$/day7/infrastructure/rack.py" />
+        <option value="$PROJECT_DIR$/day7/infrastructure/user.py" />
+        <option value="$PROJECT_DIR$/day7/infrastructure/recommend.py" />
+        <option value="$PROJECT_DIR$/day7/unstaffed_store_v6.py" />
+        <option value="$PROJECT_DIR$/day7/infrastructure/log.py" />
       </list>
     </option>
   </component>
@@ -153,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +271,13 @@
             <path>
               <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="day7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="day7" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +303,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +310,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\淑芬\PycharmProjects\xiaoxiangxueyuan\day7" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,8 +329,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unstaffed_store_v5">
-    <configuration name="demo1_oop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="demo1_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,12 +338,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo1_oop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/demo1_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +352,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo2_extend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo2_singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,12 +360,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo2_extend.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/demo2_singleton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +374,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo3_mul_extend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo3_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +382,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo3_mul_extend.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/demo3_except.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +396,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo4_mul_status" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="model2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,12 +404,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7/business" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo4_mul_status.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/business/model2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +418,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unstaffed_store_v5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,12 +426,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7/tool" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/unstaffed_store_v5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/tool/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +441,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo1_oop" />
-      <item itemvalue="Python.demo2_extend" />
-      <item itemvalue="Python.demo3_mul_extend" />
-      <item itemvalue="Python.demo4_mul_status" />
-      <item itemvalue="Python.unstaffed_store_v5" />
+      <item itemvalue="Python.demo1_class" />
+      <item itemvalue="Python.demo2_singleton" />
+      <item itemvalue="Python.demo3_except" />
+      <item itemvalue="Python.model2" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.unstaffed_store_v5" />
-        <item itemvalue="Python.demo4_mul_status" />
-        <item itemvalue="Python.demo3_mul_extend" />
-        <item itemvalue="Python.demo2_extend" />
-        <item itemvalue="Python.demo1_oop" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.model2" />
+        <item itemvalue="Python.demo3_except" />
+        <item itemvalue="Python.demo2_singleton" />
+        <item itemvalue="Python.demo1_class" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +471,8 @@
       <workItem from="1547994498649" duration="6618000" />
       <workItem from="1548029004872" duration="2332000" />
       <workItem from="1548081464263" duration="19670000" />
+      <workItem from="1548372058938" duration="4726000" />
+      <workItem from="1548421815891" duration="3877000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1523102783568</created>
@@ -379,7 +499,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29219000" />
+    <option name="totallyTimeSpent" value="37822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,13 +512,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.27231467" />
-      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49625936" visible="true" weight="0.2806354" />
+      <window_info id="Structure" order="1" sideWeight="0.50497514" side_tool="true" weight="0.27609682" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42131147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3967213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,20 +569,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="tuple" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0329/demo2_input_print.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework001/milk_tea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -567,13 +674,7 @@
     <entry file="file://$PROJECT_DIR$/day5/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/tes/asdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/tes/asdf" />
     <entry file="file://$PROJECT_DIR$/day5/demo2_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -625,9 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/user_buy_log_20190122.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/user_buy_log_20190122.csv" />
     <entry file="file://$PROJECT_DIR$/day6/demo1_oop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
@@ -663,35 +762,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day6/user_buy_log_20190124.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1757880448/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="235" column="4" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="4" />
+        <state relative-caret-position="117">
+          <caret line="780" column="8" selection-start-line="780" selection-start-column="8" selection-end-line="780" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/tool/model1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/unstaffed_store_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+          <folding>
+            <element signature="e#119#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day5/unstaffed_store_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="246" lean-forward="true" selection-start-line="170" selection-end-line="246" />
+        <state relative-caret-position="128">
+          <caret line="246" selection-start-line="170" selection-end-line="246" />
           <folding>
             <element signature="e#80#95#0" expanded="true" />
-            <element signature="e#2355#3627#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6/user_buy_log_20190124.csv">
+    <entry file="file://$PROJECT_DIR$/day7/demo1_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/demo2_singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/demo3_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/business/model1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="6" selection-start-line="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/business/model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#80#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/business/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/business/model3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/tool/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6/unstaffed_store_v5.py">
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/rack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="282" column="25" lean-forward="true" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/recommend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#133#609#0" />
+            <element signature="e#636#2174#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/warehouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#144#1003#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/infrastructure/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#97#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/unstaffed_store_v6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
             <element signature="e#119#134#0" expanded="true" />
-            <element signature="e#156#1016#0" />
-            <element signature="e#3642#4030#0" />
           </folding>
         </state>
       </provider>
