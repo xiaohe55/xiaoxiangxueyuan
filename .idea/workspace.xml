@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba3f87c-2a27-4957-9327-5133f3a85681" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/day08/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day08/demo1_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/infrastructure/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/infrastructure/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/unstaffed_store_v6.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/unstaffed_store_v6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/demo1_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/demo1_sort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +36,7 @@
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo5_string_function.coverage" NAME="demo5_string_function Coverage Results" MODIFIED="1523110377252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$unstaffed_store_v3.coverage" NAME="unstaffed_store_v3 Coverage Results" MODIFIED="1548001010039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0410" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_time.coverage" NAME="demo1_time Coverage Results" MODIFIED="1548030766286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo1_sort.coverage" NAME="demo1_sort Coverage Results" MODIFIED="1548574470588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_dict.coverage" NAME="demo2_dict Coverage Results" MODIFIED="1523105205135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0405" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_extend.coverage" NAME="demo2_extend Coverage Results" MODIFIED="1548256266965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/xiaoxiangxueyuan$demo2_file.coverage" NAME="demo2_file Coverage Results" MODIFIED="1548085228322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
@@ -58,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day7/unstaffed_store_v6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
@@ -66,6 +63,15 @@
               <folding>
                 <element signature="e#119#134#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day9/demo1_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="113" column="38" lean-forward="true" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -212,10 +218,11 @@
         <option value="$PROJECT_DIR$/day08/demo1_re.py" />
         <option value="$PROJECT_DIR$/day7/unstaffed_store_v6.py" />
         <option value="$PROJECT_DIR$/day7/infrastructure/user.py" />
+        <option value="$PROJECT_DIR$/day9/demo1_sort.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="141" />
     <option name="y" value="54" />
     <option name="width" value="1064" />
@@ -252,6 +259,11 @@
               <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
               <item name="day08" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xiaoxiangxueyuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoxiangxueyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="day9" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -283,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unstaffed_store_v6">
+  <component name="RunManager" selected="Python.demo1_sort">
     <configuration name="demo1_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,7 +318,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo3_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiaoxiangxueyuan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,12 +326,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/demo3_except.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/demo1_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,19 +407,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo3_except" />
       <item itemvalue="Python.model2" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.demo1_re" />
       <item itemvalue="Python.unstaffed_store_v6" />
+      <item itemvalue="Python.demo1_sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo1_sort" />
         <item itemvalue="Python.unstaffed_store_v6" />
         <item itemvalue="Python.demo1_re" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.model2" />
-        <item itemvalue="Python.demo3_except" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +439,7 @@
       <workItem from="1548081464263" duration="19670000" />
       <workItem from="1548372058938" duration="4726000" />
       <workItem from="1548421815891" duration="7547000" />
-      <workItem from="1548558150097" duration="4696000" />
+      <workItem from="1548558150097" duration="12111000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1523102783568</created>
@@ -454,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46188000" />
+    <option name="totallyTimeSpent" value="53603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,14 +478,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49625936" visible="true" weight="0.12859304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49625936" weight="0.12859304" />
       <window_info id="Structure" order="1" sideWeight="0.50497514" side_tool="true" weight="0.27609682" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41639343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40327868" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,13 +536,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="tuple" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day0405/demo2_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day0405/demo5_string_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -866,6 +872,13 @@
           <folding>
             <element signature="e#119#134#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo1_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="113" column="38" lean-forward="true" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
         </state>
       </provider>
     </entry>
