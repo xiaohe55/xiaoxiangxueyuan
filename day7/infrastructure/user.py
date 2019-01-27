@@ -7,6 +7,9 @@
 '''
 
 # 用户管理系统
+import re
+
+
 class UserManageSys:
     def __init__(self):
         self.user_id_set = set()
@@ -27,6 +30,18 @@ class UserManageSys:
         :return:
         """
         if use_id in self.user_id_set:
+            return True
+        else:
+            return False
+
+    def user_id_cheak(self, user_id):
+        '''
+        验证用户ID是否合法
+        :param user_id: 用户编号
+        :return:
+        '''
+        rs = re.match(r"1[3578]\d{9}$", user_id)
+        if rs != None:
             return True
         else:
             return False
@@ -86,3 +101,17 @@ class BuyCar:
             total_money = float("%.2f" % vip_money)
         return total_money
 
+    def item_id_check(self, item_id):
+        '''
+        验证商品ID是否合法
+        :param item_id: 商品ID
+        :return:
+        '''
+        if item_id != "":
+            item_ids = [1, 2, 3]
+            if item_id in item_ids:
+                return True
+            else:
+                return False
+        else:
+            return False

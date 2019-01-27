@@ -50,8 +50,11 @@ class UnstaffStore:
             while True:
                 user_id = input("请输入手机号作为用户id使用：")
                 if user_id != "":
-                    user_manage.add_new_user(user_id)
-                    break
+                    if user_manage.user_id_cheak(user_id):
+                        user_manage.add_new_user(user_id)
+                        break
+                    else:
+                        print("请输入正确手机号！！！")
                 else:
                     print("输入手机号不能为空，请重新输入")
             # 给用户分配一个购物车
@@ -61,11 +64,14 @@ class UnstaffStore:
                 rack_manage.check_add_rack(pm_rack, "pm", pm_rack_counts, warehouse_manage)
                 rack_manage.check_add_rack(zc_rack, "zc", zc_rack_counts, warehouse_manage)
                 rack_manage.check_add_rack(xc_rack, "xc", xc_rack_counts, warehouse_manage)
-
-                item_id = int(input("==本店售卖商品：1.泡面 2.榨菜 3.香肠  请输入想要购买的商品编号："))
-                # 向购物车添加商品
-                buy_car.add_item_2_car(pm_rack, zc_rack, xc_rack, item_id)
-
+                while True:
+                    item_id = int(input("==本店售卖商品：1.泡面 2.榨菜 3.香肠  请输入想要购买的商品编号："))
+                    if buy_car.item_id_check(item_id):
+                        # 向购物车添加商品
+                        buy_car.add_item_2_car(pm_rack, zc_rack, xc_rack, item_id)
+                        break
+                    else:
+                        print("请输入正确商品编号")
                 if_buy = input("请输入y/n选择是否继续购物：")
                 if if_buy == "n":
                     # 购物车结算
